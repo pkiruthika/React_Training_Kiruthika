@@ -1,0 +1,4 @@
+dev:
+	node index
+test:
+	node TEST

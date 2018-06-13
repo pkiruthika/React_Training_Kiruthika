@@ -1,8 +1,12 @@
 {
-  "name": "React_Training_Kiruthika",
-  "version": "1.0.0",
+  "name": "react-training-kiruthika",
+  "version": "0.0.1-beta",
   "main": "index.js",
   "repository": "https://github.com/pkiruthika/React_Training_Kiruthika.git",
-  "author": "pkiruthika <kiruthika.p@skava.com>",
-  "license": "MIT"
+  "author": "pkiruthika",
+  "license": "MIT",
+  "scripts": {
+    "dev": "make dev",
+    "test": "make TEST"
+  }
 }

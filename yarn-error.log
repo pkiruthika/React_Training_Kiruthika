@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js publish
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;D:\ApacheTomcat_9.0.4\bin;D:\Apache Ant\apache-ant-1.10.1\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Yarn\bin;C:\Program Files\mingw\bin;C:\Users\kiruthika.p01\AppData\Local\Microsoft\WindowsApps;C:\Users\kiruthika.p01\AppData\Roaming\npm;C:\Program Files\Yarn\bin;C:\Program Files\mingw\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "react-training-kiruthika",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": "https://github.com/pkiruthika/React_Training_Kiruthika.git",
+    "author": "pkiruthika",
+    "license": "MIT",
+    "scripts": {
+      "dev": "make dev",
+      "test": "make TEST"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: http://registry.npmjs.org/react-training-kiruthika: User not found
+      at Request.params.callback [as _callback] (C:\Program Files\Yarn\lib\cli.js:62098:18)
+      at Request.self.callback (C:\Program Files\Yarn\lib\cli.js:123085:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Program Files\Yarn\lib\cli.js:124068:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Program Files\Yarn\lib\cli.js:123988:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
