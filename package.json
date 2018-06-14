@@ -8,5 +8,9 @@
   "scripts": {
     "dev": "make dev",
     "test": "make TEST"
+  },
+  "dependencies": {
+    "@types/express":"4.16.0",
+    "express": "4.16.3"
   }
 }
