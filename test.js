@@ -1,5 +1,3 @@
-const {app} =require('./index')
+const app = "Hai, Welcome"
 
-console.assert(typeof app === 'object','app is an object')
-console.assert(app.name === 'demo', 'name is demo')
-
+exports.app = app
